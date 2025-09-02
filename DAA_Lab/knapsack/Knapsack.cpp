@@ -18,8 +18,7 @@ int knapsnak(int capacity, int wt[], int val[], int n)
     {
         cout << wt[n - 1] << " " << val[n - 1] << " " << n - 1 << endl;
     }
-    return max(include_item, exclude_item);
-}
+    return max(include_item, exclude_item);}
 
 int main()
 {
